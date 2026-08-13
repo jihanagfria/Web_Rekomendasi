@@ -617,8 +617,8 @@ body {
   .app-view-home .hc-label { font-size: .58rem; }
   .app-view-home .hc-step { font-size: 1.2rem; }
   .app-view-home .hc1 { top: 20%; right: 0; left: auto; }
-  .app-view-home .hc2 { top: 62%; right: 4%; left: auto; }
-  .app-view-home .hc3 { top: 81%; left: 7%; }
+  .app-view-home .hc2 { top: 57%; right: 4%; left: auto; }
+  .app-view-home .hc3 { top: 76%; left: 7%; }
 }
 /* Utility: visibility is controlled by JavaScript without inline styles. */
 .is-hidden {
