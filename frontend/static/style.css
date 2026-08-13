@@ -573,7 +573,7 @@ body {
   }
   .app-view-home .hero-title {
     position: absolute;
-    top: 22%;
+    top: 25%;
     left: 1rem;
     right: 1rem;
     z-index: 2;
@@ -602,12 +602,11 @@ body {
     min-width: 0;
     padding: .85rem 1rem;
     border-radius: 11px;
-    animation: none;
   }
   .app-view-home .btn-primary-mobile {
     display: inline-block;
     position: absolute;
-    top: 46%;
+    top: 49%;
     left: 0;
     margin: 0;
     min-width: 132px;
