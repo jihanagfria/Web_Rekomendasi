@@ -573,7 +573,7 @@ body {
   }
   .app-view-home .hero-title {
     position: absolute;
-    top: 30%;
+    top: 22%;
     left: 1rem;
     right: 1rem;
     z-index: 2;
@@ -602,11 +602,12 @@ body {
     min-width: 0;
     padding: .85rem 1rem;
     border-radius: 11px;
+    animation: none;
   }
   .app-view-home .btn-primary-mobile {
     display: inline-block;
     position: absolute;
-    top: 64%;
+    top: 46%;
     left: 0;
     margin: 0;
     min-width: 132px;
@@ -616,9 +617,9 @@ body {
   }
   .app-view-home .hc-label { font-size: .58rem; }
   .app-view-home .hc-step { font-size: 1.2rem; }
-  .app-view-home .hc1 { top: 20%; right: 0; left: auto; }
-  .app-view-home .hc2 { top: 57%; right: 4%; left: auto; }
-  .app-view-home .hc3 { top: 76%; left: 7%; }
+  .app-view-home .hc1 { top: 15%; right: 0; left: auto; }
+  .app-view-home .hc2 { top: 46%; right: 4%; left: auto; }
+  .app-view-home .hc3 { top: 62%; left: 7%; }
 }
 /* Utility: visibility is controlled by JavaScript without inline styles. */
 .is-hidden {
