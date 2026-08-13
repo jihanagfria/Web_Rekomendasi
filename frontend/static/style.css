@@ -1,4 +1,4 @@
-﻿/* =========================================================
+/* =========================================================
    Ã¢â‚¬Â¢Ã³Â ÂÂÃ³Â ÂÂMakeMatchÃ¢â‚¬Â¢Ã³Â ÂÂÃ³Â ÂÂ Ã¢â‚¬â€ style.css
    Aesthetic: Luxury editorial, warm ivory + dusty rose
    ========================================================= */
@@ -568,10 +568,10 @@ body {
 
   .app-view-home .hero {
     grid-template-columns: 1fr;
-    align-content: end;
+    align-content: start;
     align-items: start;
     gap: .35rem;
-    padding: 1rem 1rem 10.5rem;
+    padding: clamp(10rem, 25vh, 13rem) 1rem 2rem;
   }
   .app-view-home .hero-content {
     display: contents;
@@ -583,7 +583,7 @@ body {
     font-size: clamp(2.65rem, 12.5vw, 3.15rem);
     line-height: .98;
     margin-bottom: 0;
-    transform: translateY(-.5rem);
+    transform: none;
   }
   .app-view-home .mobile-break {
     display: block;
@@ -599,8 +599,8 @@ body {
     order: 2;
     grid-row: 2;
     width: 100%;
-    height: 225px;
-    margin: 3.25rem 0 0;
+    height: 300px;
+    margin: .75rem 0 0;
   }
   .app-view-home .hero-card {
     min-width: 0;
@@ -610,7 +610,7 @@ body {
   .app-view-home .btn-primary-mobile {
     display: inline-block;
     position: absolute;
-    top: 37%;
+    top: 36%;
     left: 0;
     margin: 0;
     min-width: 150px;
@@ -620,9 +620,9 @@ body {
   }
   .app-view-home .hc-label { font-size: .58rem; }
   .app-view-home .hc-step { font-size: 1.2rem; }
-  .app-view-home .hc1 { top: 0; left: 28%; }
-  .app-view-home .hc2 { top: 35%; right: 1%; left: auto; }
-  .app-view-home .hc3 { top: 70%; left: 28%; }
+  .app-view-home .hc1 { top: 0; right: 0; left: auto; }
+  .app-view-home .hc2 { top: 35%; right: 8%; left: auto; }
+  .app-view-home .hc3 { top: 70%; left: 14%; }
 }
 /* Utility: visibility is controlled by JavaScript without inline styles. */
 .is-hidden {
