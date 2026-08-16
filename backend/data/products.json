@@ -62,7 +62,7 @@
     "skinType": "All Skin Types",
     "finish": "Matte",
     "benefits": "24H Fresh Flawless, Shine-Control, Pore-Blurring",
-    "cbfBenefits": "Oil Control, Pore Blurring",
+    "cbfBenefits": "Long Lasting, Oil Control, Pore Blurring",
     "image": "c_skfc_velvet.jpeg"
   },
   {
@@ -84,7 +84,7 @@
     "skinType": "Normal, Dry, Acne-Prone",
     "finish": "Glow",
     "benefits": "Buildable Coverage, 12 Hour Healthy Glow Finish, SPF 40 PA++++",
-    "cbfBenefits": "UV Protection, Coverage",
+    "cbfBenefits": "Long Lasting, UV Protection, Coverage",
     "image": "c_w_matte.jpeg"
   },
   {
@@ -95,7 +95,7 @@
     "skinType": "Normal, Combination, Oily, Acne-Prone",
     "finish": "Matte",
     "benefits": "5D Pore-Blurring, SPF 50 PA++++, High & Comfort Coverage, 18 Hours Oil Control",
-    "cbfBenefits": "Oil Control, UV Protection, Coverage, Pore Blurring",
+    "cbfBenefits": "Long Lasting, Oil Control, UV Protection, Coverage, Pore Blurring",
     "image": "c_w_dewy.jpeg"
   },
   {
@@ -128,7 +128,7 @@
     "skinType": "Dry, Normal",
     "finish": "Matte",
     "benefits": "24H Oil Control, Transferproof, Maskproof",
-    "cbfBenefits": "Oil Control",
+    "cbfBenefits": "Long Lasting, Oil Control",
     "image": "c_makeover_ht.jpeg"
   },
   {
@@ -139,7 +139,7 @@
     "skinType": "Normal, Oily",
     "finish": "Matte",
     "benefits": "16H Breathable Wear, Waterproof, Sweatproof",
-    "cbfBenefits": "Waterproof",
+    "cbfBenefits": "Long Lasting, Waterproof",
     "image": "c_bnb.jpeg"
   },
   {
@@ -205,7 +205,7 @@
     "skinType": "Normal, Oily",
     "finish": "Matte",
     "benefits": "32H Transferproof, Waterproof, Sweatproof",
-    "cbfBenefits": "Waterproof",
+    "cbfBenefits": "Long Lasting, Waterproof",
     "image": "f_loreal.jpeg"
   },
   {
@@ -216,7 +216,7 @@
     "skinType": "All Skin Types",
     "finish": "Natural, Matte",
     "benefits": "Breathable Coverage, 11H Oil-Control, SPF 25 PA+++",
-    "cbfBenefits": "Oil Control, UV Protection, Coverage",
+    "cbfBenefits": "Long Lasting, Oil Control, UV Protection, Coverage",
     "image": "f_dazzle.jpeg"
   },
   {
@@ -249,7 +249,7 @@
     "skinType": "All Skin Types",
     "finish": "Natural",
     "benefits": "24H Stay, Blurring, SPF 35 PA++++",
-    "cbfBenefits": "UV Protection",
+    "cbfBenefits": "Long Lasting, UV Protection",
     "image": "st_skintific.jpeg"
   },
   {
@@ -304,7 +304,7 @@
     "skinType": "Acne-Prone",
     "finish": "Dewy",
     "benefits": "24H Moisture Lock, Lightweight, SPF 35 PA+++",
-    "cbfBenefits": "Lightweight, UV Protection",
+    "cbfBenefits": "Long Lasting, Lightweight, UV Protection",
     "image": "st_bnb.jpeg"
   },
   {
@@ -337,7 +337,7 @@
     "skinType": "All Skin Types",
     "finish": "Natural, Matte",
     "benefits": "Brightening Serum Infused, Transferproof, 12H Oil Control",
-    "cbfBenefits": "Oil Control",
+    "cbfBenefits": "Long Lasting, Oil Control",
     "image": "st_you_b.jpeg"
   },
   {
@@ -381,7 +381,7 @@
     "skinType": "Acne-Prone, Oily",
     "finish": "Matte",
     "benefits": "12H Oil-Control, Waterproof, Filter Effect",
-    "cbfBenefits": "Oil Control, Waterproof",
+    "cbfBenefits": "Long Lasting, Oil Control, Waterproof",
     "image": "pw_dazzleme.jpeg"
   },
   {
@@ -425,7 +425,7 @@
     "skinType": "All Skin Types",
     "finish": "Matte",
     "benefits": "12H Oil Control, Pore Blurring, Makeup Setting",
-    "cbfBenefits": "Oil Control, Pore Blurring",
+    "cbfBenefits": "Long Lasting, Oil Control, Pore Blurring",
     "image": "pw_skintific.jpeg"
   },
   {
@@ -436,7 +436,7 @@
     "skinType": "Oily",
     "finish": "Matte",
     "benefits": "Waterproof, 24H Oil Control, Hydrating, Pore Blurring, Fine Line Blurring",
-    "cbfBenefits": "Oil Control, Pore Blurring, Waterproof, Hydrating",
+    "cbfBenefits": "Long Lasting, Oil Control, Pore Blurring, Waterproof, Hydrating",
     "image": "pw_otwo.jpeg"
   },
   {
@@ -524,7 +524,7 @@
     "skinType": "Oily, Combination",
     "finish": "Matte",
     "benefits": "24H Dual Oil Control, Texture Smoothing, Pore Blurring, Fine Line Blurring, Weightless",
-    "cbfBenefits": "Oil Control, Lightweight, Pore Blurring",
+    "cbfBenefits": "Long Lasting, Oil Control, Lightweight, Pore Blurring",
     "image": "pw_dazzle_i.jpeg"
   },
   {
