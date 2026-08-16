@@ -83,8 +83,8 @@
     "subCategory": "Cushion",
     "skinType": "Normal, Dry, Acne-Prone",
     "finish": "Glow",
-    "benefits": "SkinMatch Technology, 12H Long Lasting, SPF 33 PA+++",
-    "cbfBenefits": "Long Lasting, UV Protection",
+    "benefits": "Buildable Coverage, 12 Hour Healthy Glow Finish, SPF 40 PA++++",
+    "cbfBenefits": "UV Protection, Coverage",
     "image": "c_w_matte.jpeg"
   },
   {
@@ -92,10 +92,10 @@
     "name": "Wardah Colorfit 5D Blur Cloud Cushion",
     "brand": "WARDAH",
     "subCategory": "Cushion",
-    "skinType": "Normal, Dry",
+    "skinType": "Normal, Combination, Oily, Acne-Prone",
     "finish": "Matte",
-    "benefits": "5D Pore-Blurring, 18H Long-Lasting, Au, -Fit",
-    "cbfBenefits": "Long Lasting, Pore Blurring",
+    "benefits": "5D Pore-Blurring, SPF 50 PA++++, High & Comfort Coverage, 18 Hours Oil Control",
+    "cbfBenefits": "Oil Control, UV Protection, Coverage, Pore Blurring",
     "image": "c_w_dewy.jpeg"
   },
   {
@@ -741,7 +741,7 @@
     "name": "Becoming Bare Matte HD Cushion Foundation",
     "brand": "BECOMING",
     "subCategory": "Cushion",
-    "skinType": "Oily, Sensitive",
+    "skinType": "Oily",
     "finish": "Matte",
     "benefits": "12H Long Lasting, Medium to High Coverage, Lightweight",
     "cbfBenefits": "Long Lasting, Lightweight, Coverage",
