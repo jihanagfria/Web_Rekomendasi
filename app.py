@@ -213,16 +213,19 @@ def matches_subcategory(product, preferences):
 def build_idf(products):
     """Menghitung nilai Inverse Document Frequency (IDF) menggunakan rumus ln(N / df)."""
 
+    # DF (Document Frequency): jumlah produk/dokumen yang mengandung setiap fitur.
     document_frequency = Counter()
 
     for product in products:
         document_frequency.update(set(product_features(product)))
 
+    # N: jumlah seluruh produk/dokumen kandidat.
     document_count = len(products)
 
     if not document_count:
         return {}
 
+    # IDF: ln(N / DF). Fitur yang jarang muncul memperoleh bobot lebih besar.
     return {
         feature: log(document_count / frequency)
         for feature, frequency in document_frequency.items()
@@ -231,15 +234,25 @@ def build_idf(products):
 
 
 def tf_idf_vector(features, idf, document_count):
+    # TF (Term Frequency): jumlah kemunculan setiap fitur dalam satu dokumen/query.
     term_frequency = Counter(features)
+
+    # IDF cadangan untuk fitur query yang tidak ditemukan pada dokumen kandidat.
     fallback_idf = log(document_count) if document_count else 0
+
+    # TF-IDF: TF dikalikan dengan IDF untuk setiap fitur.
     return {feature: frequency * idf.get(feature, fallback_idf) for feature, frequency in term_frequency.items()}
 
 
 def cosine_similarity(vector_a, vector_b):
+    # Pembilang cosine similarity: dot product antara dua vektor TF-IDF.
     dot_product = sum(value * vector_b.get(feature, 0) for feature, value in vector_a.items())
+
+    # Penyebut cosine similarity: panjang/norma Euclidean masing-masing vektor.
     norm_a = sqrt(sum(value ** 2 for value in vector_a.values()))
     norm_b = sqrt(sum(value ** 2 for value in vector_b.values()))
+
+    # Cosine similarity: (A . B) / (||A|| x ||B||).
     return dot_product / (norm_a * norm_b) if norm_a and norm_b else 0
 
 
@@ -278,10 +291,14 @@ def recommend_products(products, preferences, show_calculation=False):
     document_count = len(candidates)
     idf = build_idf(candidates)
     query_features = preference_features(preferences)
+    # Membentuk vektor TF-IDF preferensi pengguna.
     query_vector = tf_idf_vector(query_features, idf, document_count)
     scored_products = []
     for product in candidates:
+        # Membentuk vektor TF-IDF untuk setiap produk kandidat.
         product_vector = tf_idf_vector(product_features(product), idf, document_count)
+
+        # Menghitung kemiripan antara preferensi pengguna dan produk.
         similarity = cosine_similarity(query_vector, product_vector)
         if similarity > 0:
             scored_products.append((similarity, product, product_vector))
