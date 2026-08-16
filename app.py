@@ -65,7 +65,8 @@ def is_long_lasting_claim(keyword):
     return any((
         "long lasting" in keyword,
         "long wear" in keyword,
-        bool(re.search(r"\b\d+\s*h\s*wear\b", keyword)),
+        # Klaim durasi seperti 12H, 18 H, atau 24 Hours menunjukkan ketahanan produk.
+        bool(re.search(r"\b\d+\s*(?:h|hours?)\b", keyword)),
         "all day wear" in keyword,
         "lasts all day" in keyword,
     ))
