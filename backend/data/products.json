@@ -4,10 +4,10 @@
     "name": "Glad2Glow Perfect Cover Cushion",
     "brand": "GLAD2GLOW",
     "subCategory": "Cushion",
-    "skinType": "All Skin Types",
+    "skinType": "Oily, Combination",
     "finish": "Matte",
-    "benefits": "Full Coverage, Waterproof, Transferproof, Shine-Control",
-    "cbfBenefits": "Oil Control, Coverage, Waterproof",
+    "benefits": "High Coverage, Long Lasting, Waterproof, Lightweight, Hydrating",
+    "cbfBenefits": "Long Lasting, Lightweight, Coverage, Waterproof, Hydrating",
     "image": "c_g2g.jpeg"
   },
   {
@@ -17,8 +17,8 @@
     "subCategory": "Cushion",
     "skinType": "All Skin Types",
     "finish": "Glow",
-    "benefits": "Instant Pore-Blurring, 10H Long Lasting, Skin-Barrier Friendly",
-    "cbfBenefits": "Long Lasting, Pore Blurring",
+    "benefits": "12H Long Lasting, High Coverage, Lightweight, Hydrating, Zero Oxidation",
+    "cbfBenefits": "Long Lasting, Lightweight, Coverage, Hydrating",
     "image": "c_g2g_glow.jpeg"
   },
   {
@@ -26,10 +26,10 @@
     "name": "Sea Makeup Fix and Flawless Silk Cushion",
     "brand": "SEA MAKEUP",
     "subCategory": "Cushion",
-    "skinType": "All Skin Types",
+    "skinType": "Acne-Prone, Oily",
     "finish": "Matte",
-    "benefits": "Acne Care (Salicylic Acid), Oil Control, High Coverage",
-    "cbfBenefits": "Oil Control, Coverage",
+    "benefits": "Oil Control, Full Coverage, Pore-Blurring, Salicylic Acid, Niacinamide, SPF 32 PA+++",
+    "cbfBenefits": "Oil Control, UV Protection, Coverage, Pore Blurring",
     "image": "c_seamakeup.jpeg"
   },
   {
@@ -37,10 +37,10 @@
     "name": "OMG Coverlast Cushion",
     "brand": "OMG",
     "subCategory": "Cushion",
-    "skinType": "Acne-Prone, Oily",
+    "skinType": "All Skin Types",
     "finish": "Dewy",
-    "benefits": "12H Long Lasting, Oil Control, SPF 15 PA++",
-    "cbfBenefits": "Long Lasting, Oil Control, UV Protection",
+    "benefits": "High Coverage, 12H Long Lasting, No-Oxidize, Poreless, SPF 30 PA+++, Non-Acnegenic, Non-Comedogenic",
+    "cbfBenefits": "Long Lasting, UV Protection, Coverage, Pore Blurring",
     "image": "c_omg.jpeg"
   },
   {
@@ -49,9 +49,9 @@
     "brand": "SKINTIFIC",
     "subCategory": "Cushion",
     "skinType": "All Skin Types",
-    "finish": "Natural",
-    "benefits": "5X Ceramide Hybrid Serum, 12H Long Lasting, SPF35 PA++++",
-    "cbfBenefits": "Long Lasting, UV Protection",
+    "finish": "Dewy",
+    "benefits": "High Coverage, Non-Comedogenic",
+    "cbfBenefits": "Coverage",
     "image": "c_skfc_all.jpeg"
   },
   {
@@ -61,8 +61,8 @@
     "subCategory": "Cushion",
     "skinType": "All Skin Types",
     "finish": "Matte",
-    "benefits": "24H Fresh Flawless, Shine-Control, Pore-Blurring",
-    "cbfBenefits": "Long Lasting, Oil Control, Pore Blurring",
+    "benefits": "Full Coverage, Oil Control, Velvet Smooth",
+    "cbfBenefits": "Oil Control, Coverage",
     "image": "c_skfc_velvet.jpeg"
   },
   {
@@ -70,10 +70,10 @@
     "name": "Skintific Cover Glow Perfect Cushion",
     "brand": "SKINTIFIC",
     "subCategory": "Cushion",
-    "skinType": "Oily, Combination",
+    "skinType": "All Skin Types",
     "finish": "Glow",
-    "benefits": "5X Ceramide Serum, 12H Long Lasting, SPF 35 PA++++",
-    "cbfBenefits": "Long Lasting, UV Protection",
+    "benefits": "Full Coverage, Lightweight, 10H Long Lasting, Soft-Focus Poreless, Hydrating",
+    "cbfBenefits": "Long Lasting, Lightweight, Coverage, Pore Blurring, Hydrating",
     "image": "c_skfc_glow.jpeg"
   },
   {
@@ -81,10 +81,10 @@
     "name": "Wardah Colorfit Perfect Glow Cushion",
     "brand": "WARDAH",
     "subCategory": "Cushion",
-    "skinType": "Normal, Dry, Acne-Prone",
+    "skinType": "Normal, Dry",
     "finish": "Glow",
-    "benefits": "Buildable Coverage, 12 Hour Healthy Glow Finish, SPF 40 PA++++",
-    "cbfBenefits": "Long Lasting, UV Protection, Coverage",
+    "benefits": "Medium to High Coverage, 12H Long Lasting, Lightweight, Hydrating, SPF 40 PA++++, Non-Comedogenic, Non-Acnegenic",
+    "cbfBenefits": "Long Lasting, Lightweight, UV Protection, Coverage, Hydrating",
     "image": "c_w_matte.jpeg"
   },
   {
@@ -92,10 +92,10 @@
     "name": "Wardah Colorfit 5D Blur Cloud Cushion",
     "brand": "WARDAH",
     "subCategory": "Cushion",
-    "skinType": "Normal, Combination, Oily, Acne-Prone",
+    "skinType": "Normal, Oily, Acne-Prone",
     "finish": "Matte",
-    "benefits": "5D Pore-Blurring, SPF 50 PA++++, High & Comfort Coverage, 18 Hours Oil Control",
-    "cbfBenefits": "Long Lasting, Oil Control, UV Protection, Coverage, Pore Blurring",
+    "benefits": "5D Pore-Blurring, High Coverage, Lightweight, 18H Long Lasting, 18 Hours Oil Control, SPF 50 PA++++, Non-Comedogenic, Non-Acnegenic",
+    "cbfBenefits": "Long Lasting, Oil Control, Lightweight, UV Protection, Coverage, Pore Blurring",
     "image": "c_w_dewy.jpeg"
   },
   {
@@ -103,10 +103,10 @@
     "name": "Esqa Flawless Cushion Serum",
     "brand": "ESQA",
     "subCategory": "Cushion",
-    "skinType": "Normal, Oily",
-    "finish": "Natural",
-    "benefits": "5-in-1 Premium Serum, Hydrating, SPF 50+ PA+++",
-    "cbfBenefits": "UV Protection, Hydrating",
+    "skinType": "All Skin Types",
+    "finish": "Glow",
+    "benefits": "Full Coverage, Lightweight, SPF 50+ PA++++, Non-Comedogenic, Dermatologically Tested",
+    "cbfBenefits": "Lightweight, UV Protection, Coverage",
     "image": "c_esqa.jpeg"
   },
   {
@@ -114,10 +114,10 @@
     "name": "Make Over Hydrastay Prismatic Glass Cushion",
     "brand": "MAKE OVER",
     "subCategory": "Cushion",
-    "skinType": "Dry, Acne-Prone",
-    "finish": "Dewy",
-    "benefits": "Deep Hydrating, SPF 20 PA++, Hypoallergenic",
-    "cbfBenefits": "UV Protection, Hydrating",
+    "skinType": "All Skin Types",
+    "finish": "Glow",
+    "benefits": "24H Strongwear, SPF 45 PA+++, Non-Comedogenic, Non-Acnegenic, Zero-Crack, Zero-Smudge, Zero-Cakey, Zero-Crease",
+    "cbfBenefits": "Long Lasting, UV Protection",
     "image": "c_makeover_ab.jpeg"
   },
   {
@@ -127,8 +127,8 @@
     "subCategory": "Cushion",
     "skinType": "Oily, Normal",
     "finish": "Matte",
-    "benefits": "24H Oil Control, Transferproof, Maskproof",
-    "cbfBenefits": "Long Lasting, Oil Control",
+    "benefits": "24H Longwear, 24H Non-Oxidation, Oil Control, Medium-to-High Coverage, Lightweight, SPF 50 PA++++, Non-Comedogenic, Hypoallergenic, Dermatologically Tested",
+    "cbfBenefits": "Long Lasting, Oil Control, Lightweight, UV Protection, Coverage",
     "image": "c_makeover_ht.jpeg"
   },
   {
@@ -136,10 +136,10 @@
     "name": "BNB Bloomatte Perfect Zoom Cover Cushion",
     "brand": "BARENBLISS",
     "subCategory": "Cushion",
-    "skinType": "Normal, Oily",
+    "skinType": "All Skin Types, Acne-Prone",
     "finish": "Matte",
-    "benefits": "16H Breathable Wear, Waterproof, Sweatproof",
-    "cbfBenefits": "Long Lasting, Waterproof",
+    "benefits": "16H Long Lasting, High Coverage, Lightweight, SPF 50+ PA+++, Skin Nourishing, Antioxidant",
+    "cbfBenefits": "Long Lasting, Lightweight, UV Protection, Coverage",
     "image": "c_bnb.jpeg"
   },
   {
@@ -149,8 +149,8 @@
     "subCategory": "Foundation",
     "skinType": "All Skin Types",
     "finish": "Natural",
-    "benefits": "12H Long Lasting, SPF 15 PA++, Oil Control",
-    "cbfBenefits": "Long Lasting, Oil Control, UV Protection",
+    "benefits": "Flawless Coverage, 12H Long Lasting",
+    "cbfBenefits": "Long Lasting, Coverage",
     "image": "f_omg.jpeg"
   },
   {
@@ -160,8 +160,8 @@
     "subCategory": "Foundation",
     "skinType": "All Skin Types",
     "finish": "Matte",
-    "benefits": "30H Wear, Sweatproof, Transferproof, Weightless",
-    "cbfBenefits": "Long Lasting, Lightweight",
+    "benefits": "30H Long Wear, SPF 16, Buildable Coverage, Lightweight, Transferproof",
+    "cbfBenefits": "Long Lasting, Lightweight, UV Protection, Coverage",
     "image": "f_maybelline.jpeg"
   },
   {
@@ -169,10 +169,10 @@
     "name": "Fit Me Matte + Poreless Liquid Foundation",
     "brand": "MAYBELLINE",
     "subCategory": "Foundation",
-    "skinType": "All Skin Types",
+    "skinType": "Normal, Oily",
     "finish": "Matte",
-    "benefits": "Oil Control, Pore-Blurring, SPF 22",
-    "cbfBenefits": "Oil Control, UV Protection, Pore Blurring",
+    "benefits": "12H, Shine Control, Non-Comedogenic",
+    "cbfBenefits": "Long Lasting, Oil Control",
     "image": "f_fitme.jpeg"
   },
   {
@@ -180,10 +180,10 @@
     "name": "WARDAH Lightening Liquid Foundation",
     "brand": "WARDAH",
     "subCategory": "Foundation",
-    "skinType": "Oily",
-    "finish": "Natural",
-    "benefits": "Micronized Bright Pigment, SPF 30 PA+++, Airy Lightweight",
-    "cbfBenefits": "Lightweight, UV Protection",
+    "skinType": "All Skin Types",
+    "finish": "Matte",
+    "benefits": "Skin-Like to High Coverage, Airy-Coated Particles, Advance Niacinamide, SPF 40 PA+++, Blue Light Protection",
+    "cbfBenefits": "UV Protection, Coverage",
     "image": "f_wardah.jpeg"
   },
   {
@@ -193,8 +193,8 @@
     "subCategory": "Foundation",
     "skinType": "All Skin Types",
     "finish": "Matte",
-    "benefits": "24H Long Lasting, Weightless, SPF 30 PA+++",
-    "cbfBenefits": "Long Lasting, Lightweight, UV Protection",
+    "benefits": "24H Long Lasting, Medium Buildable Coverage, Weightless, Non-Oxidizing, Breathable, Waterproof, Mask-Proof, SPF 30 PA+++, Non-Comedogenic, Non-Acnegenic, Dermatologically Tested",
+    "cbfBenefits": "Long Lasting, Lightweight, UV Protection, Coverage, Waterproof",
     "image": "f_makeover.jpeg"
   },
   {
@@ -202,10 +202,10 @@
     "name": "L’Oreal Paris Infallible 32 Hr Matte Cover Liquid Foundation",
     "brand": "L’Oreal Paris",
     "subCategory": "Foundation",
-    "skinType": "Normal, Oily",
+    "skinType": "Oily",
     "finish": "Matte",
-    "benefits": "32H Transferproof, Waterproof, Sweatproof",
-    "cbfBenefits": "Long Lasting, Waterproof",
+    "benefits": "32H Long Lasting, High Coverage, 32H Oil-Control, 32H Shine-Control, Transferproof, Waterproof, Sweatproof, Lightweight, SPF 25, 4% Niacinamide",
+    "cbfBenefits": "Long Lasting, Oil Control, Lightweight, UV Protection, Coverage, Waterproof",
     "image": "f_loreal.jpeg"
   },
   {
@@ -214,9 +214,9 @@
     "brand": "Dazzle Me",
     "subCategory": "Foundation",
     "skinType": "All Skin Types",
-    "finish": "Natural, Matte",
-    "benefits": "Breathable Coverage, 11H Oil-Control, SPF 25 PA+++",
-    "cbfBenefits": "Long Lasting, Oil Control, UV Protection, Coverage",
+    "finish": "Matte",
+    "benefits": "24H Long Lasting, Breathable Coverage, Oil Control, Hydrating, SPF 35 PA+++, Niacinamide-Zinc PCA, 5X Cera-Cactus",
+    "cbfBenefits": "Long Lasting, Oil Control, UV Protection, Coverage, Hydrating",
     "image": "f_dazzle.jpeg"
   },
   {
@@ -225,9 +225,9 @@
     "brand": "GLAD2GLOW",
     "subCategory": "Skin Tint",
     "skinType": "All Skin Types",
-    "finish": "Natural",
-    "benefits": "Pore Blurring, Lightweight, SPF 35 PA+++",
-    "cbfBenefits": "Lightweight, UV Protection, Pore Blurring",
+    "finish": "Matte",
+    "benefits": "Buildable Medium Coverage, Pore-Blurring, Lightweight, 12H Long Lasting, 12H Oil Control, Squalane",
+    "cbfBenefits": "Long Lasting, Oil Control, Lightweight, Coverage, Pore Blurring, Hydrating",
     "image": "st_g2g.jpeg"
   },
   {
@@ -237,8 +237,8 @@
     "subCategory": "Skin Tint",
     "skinType": "All Skin Types",
     "finish": "Natural",
-    "benefits": "Peptide-Infused, Blurring Effect, SPF 35 PA++++",
-    "cbfBenefits": "UV Protection",
+    "benefits": "Medium Buildable Coverage, 24H Long Lasting, Blurring, Hydrating, Lightweight, Oil Control, SPF 35 PA++, 5X Active Complex, Non-Comedogenic, Dermatologically Tested",
+    "cbfBenefits": "Long Lasting, Oil Control, Lightweight, UV Protection, Coverage, Pore Blurring, Hydrating",
     "image": "st_esqa.jpeg"
   },
   {
@@ -248,8 +248,8 @@
     "subCategory": "Skin Tint",
     "skinType": "All Skin Types",
     "finish": "Natural",
-    "benefits": "24H Stay, Blurring, SPF 35 PA++++",
-    "cbfBenefits": "Long Lasting, UV Protection",
+    "benefits": "Perfect Buildable Coverage, Lightweight, Pore-Blurring, 10H Long Lasting, Hydrating, Squalane, Panthenol",
+    "cbfBenefits": "Long Lasting, Lightweight, Coverage, Pore Blurring, Hydrating",
     "image": "st_skintific.jpeg"
   },
   {
@@ -259,8 +259,8 @@
     "subCategory": "Skin Tint",
     "skinType": "All Skin Types",
     "finish": "Natural",
-    "benefits": "5X Skin Booster, SPF 35 PA+++, Hydrating",
-    "cbfBenefits": "UV Protection, Hydrating",
+    "benefits": "Medium Buildable Coverage, 16H Long Lasting, Lightweight, Oil Control, Hydrating, SPF 40 PA+++, CICA, Pentavitin, Sweat-Safe, Humid-Proof, Non-Comedogenic, Non-Acnegenic",
+    "cbfBenefits": "Long Lasting, Oil Control, Lightweight, UV Protection, Coverage, Hydrating",
     "image": "st_wardah.jpeg"
   },
   {
@@ -269,9 +269,9 @@
     "brand": "LUXCRIME",
     "subCategory": "Skin Tint",
     "skinType": "All Skin Types",
-    "finish": "Dewy",
-    "benefits": "Hydrating Serum, SPF 35 PA+++, Anti-Pollutant",
-    "cbfBenefits": "UV Protection, Hydrating",
+    "finish": "Glow",
+    "benefits": "Buildable Coverage, Lightweight, Hydrating, Blurring, Long Lasting, SPF 35 PA+++",
+    "cbfBenefits": "Long Lasting, Lightweight, UV Protection, Coverage, Pore Blurring, Hydrating",
     "image": "st_luxcrime.jpeg"
   },
   {
@@ -279,10 +279,10 @@
     "name": "SOMETHINC Copy Paste Tinted Sunscreen",
     "brand": "SOMETHINC",
     "subCategory": "Skin Tint",
-    "skinType": "All Skin Types",
+    "skinType": "All Skin Types, Acne-Prone",
     "finish": "Glow",
-    "benefits": "SPF 40 PA++++, Ultra-Lightweight, Breathable Skin",
-    "cbfBenefits": "Lightweight, UV Protection",
+    "benefits": "SPF 40 PA++++, Medium Buildable Coverage, 12H Long Lasting, Ultra-Lightweight, Breathable, Hydrating, Non-Comedogenic",
+    "cbfBenefits": "Long Lasting, Lightweight, UV Protection, Coverage, Hydrating",
     "image": "st_somethinc.jpeg"
   },
   {
@@ -292,8 +292,8 @@
     "subCategory": "Skin Tint",
     "skinType": "All Skin Types",
     "finish": "Matte",
-    "benefits": "Salicylic Acid Treatment, Lightweight",
-    "cbfBenefits": "Lightweight",
+    "benefits": "Lightweight, Soft-Focus, Pore-Blurring, Fine-Line Blurring, Buildable Coverage",
+    "cbfBenefits": "Lightweight, Coverage, Pore Blurring",
     "image": "st_seamakeup.jpeg"
   },
   {
@@ -301,10 +301,10 @@
     "name": "BNB barenbliss Bloomdew Inner Light Serum Tint",
     "brand": "BARENBLISS",
     "subCategory": "Skin Tint",
-    "skinType": "Acne-Prone",
+    "skinType": "All Skin Types, Acne-Prone",
     "finish": "Dewy",
-    "benefits": "24H Moisture Lock, Lightweight, SPF 35 PA+++",
-    "cbfBenefits": "Long Lasting, Lightweight, UV Protection",
+    "benefits": "24H Breathable Wear, Lightweight, Pore-Blurring, Oil Control, Hydrating, SPF 50 PA+++, Non-Comedogenic, Dermatologically Tested",
+    "cbfBenefits": "Long Lasting, Oil Control, Lightweight, UV Protection, Pore Blurring, Hydrating",
     "image": "st_bnb.jpeg"
   },
   {
@@ -314,8 +314,8 @@
     "subCategory": "Skin Tint",
     "skinType": "All Skin Types",
     "finish": "Natural",
-    "benefits": "Pore-Blurring, Anti-Pollutant, SPF 30 PA++",
-    "cbfBenefits": "UV Protection, Pore Blurring",
+    "benefits": "Light-to-Medium Buildable Coverage, Ultra-Lightweight, Pore-Blurring, Long Lasting, Water-Resistant, Transferproof, Anti-Pollutant, SPF 35 PA++, Non-Comedogenic, Dermatologically Tested",
+    "cbfBenefits": "Long Lasting, Lightweight, UV Protection, Coverage, Pore Blurring, Waterproof",
     "image": "st_roseallday2.jpeg"
   },
   {
@@ -324,9 +324,9 @@
     "brand": "YOU Beauty",
     "subCategory": "Skin Tint",
     "skinType": "Oily, Acne-Prone",
-    "finish": "Natural, Matte",
-    "benefits": "Centella Asiatica Infused, Oil Control, Calming",
-    "cbfBenefits": "Oil Control",
+    "finish": "Matte",
+    "benefits": "3% Niacinamide, 24H Long Wear, Perfect Coverage, Oil Control, Centella Asiatica, SPF 50 PA+++",
+    "cbfBenefits": "Long Lasting, Oil Control, UV Protection, Coverage",
     "image": "st_you_a.jpeg"
   },
   {
@@ -335,9 +335,9 @@
     "brand": "YOU Beauty",
     "subCategory": "Skin Tint",
     "skinType": "All Skin Types",
-    "finish": "Natural, Matte",
-    "benefits": "Brightening Serum Infused, Transferproof, 12H Oil Control",
-    "cbfBenefits": "Long Lasting, Oil Control",
+    "finish": "Natural",
+    "benefits": "3% Niacinamide, 24H Long Wear, Natural Glow, Lightweight, Medium Buildable Coverage, SPF 50 PA+++",
+    "cbfBenefits": "Long Lasting, Lightweight, UV Protection, Coverage",
     "image": "st_you_b.jpeg"
   },
   {
@@ -346,9 +346,9 @@
     "brand": "GLAD2GLOW",
     "subCategory": "Powder",
     "skinType": "All Skin Types",
-    "finish": "Natural",
-    "benefits": "Ultra-Fine Powder, Oil Control, Poreless Look",
-    "cbfBenefits": "Oil Control",
+    "finish": "Matte",
+    "benefits": "Buildable Medium-to-High Coverage, Soft-Focus Blurring, Pore-Blurring, Oil Control, Lightweight, Breathable, Squalane, Vitamin E",
+    "cbfBenefits": "Oil Control, Lightweight, Coverage, Pore Blurring, Hydrating",
     "image": "pw_g2g.jpeg"
   },
   {
@@ -358,8 +358,8 @@
     "subCategory": "Powder",
     "skinType": "Acne-Prone",
     "finish": "Matte",
-    "benefits": "Micro Powder, Acne Care, Oil Control",
-    "cbfBenefits": "Oil Control",
+    "benefits": "Micro Powder, Salicylic Acid, Witch Hazel, Acne Care, Oil Control, Pore-Blurring, Non-Comedogenic, Fungal Acne Safe",
+    "cbfBenefits": "Oil Control, Pore Blurring",
     "image": "pw_seamakeup.jpeg"
   },
   {
@@ -367,10 +367,10 @@
     "name": "Judydoll Two Way Cake",
     "brand": "JUDYDOLL",
     "subCategory": "Powder",
-    "skinType": "Acne-Prone, Oily",
+    "skinType": "All Skin Types, Acne-Prone",
     "finish": "Matte",
-    "benefits": "Waterproof, Sweatproof, High Cover",
-    "cbfBenefits": "Waterproof",
+    "benefits": "24H Matte & Blur Finish, Oil Control, SPF 50+ PA+++, Light-Diffusing Powder, Skin Barrier Shield",
+    "cbfBenefits": "Long Lasting, Oil Control, UV Protection",
     "image": "pw_judydoll.jpeg"
   },
   {
@@ -378,10 +378,10 @@
     "name": "DAZZLE ME Better Than Filter Fixed Loose Powder",
     "brand": "DAZZLE ME",
     "subCategory": "Powder",
-    "skinType": "Acne-Prone, Oily",
+    "skinType": "All Skin Types",
     "finish": "Matte",
-    "benefits": "12H Oil-Control, Waterproof, Filter Effect",
-    "cbfBenefits": "Long Lasting, Oil Control, Waterproof",
+    "benefits": "12H Long Wear, Filter-Like Cover, Instant Excess Oil Fix",
+    "cbfBenefits": "Long Lasting, Oil Control, Coverage",
     "image": "pw_dazzleme.jpeg"
   },
   {
@@ -390,9 +390,9 @@
     "brand": "WARDAH",
     "subCategory": "Powder",
     "skinType": "All Skin Types",
-    "finish": "Natural",
-    "benefits": "12H Long Lasting, SkinMatch Technology, SPF 20 PA+++",
-    "cbfBenefits": "Long Lasting, UV Protection",
+    "finish": "Matte",
+    "benefits": "Medium-to-High Buildable Coverage, 12H Long Lasting, Oil Control, Pore-Blurring, SPF 20 PA+++, CICA, Non-Comedogenic, Non-Acnegenic, Dermatologically Tested",
+    "cbfBenefits": "Long Lasting, Oil Control, UV Protection, Coverage, Pore Blurring",
     "image": "pw_wardah.jpeg"
   },
   {
@@ -402,8 +402,8 @@
     "subCategory": "Powder",
     "skinType": "All Skin Types",
     "finish": "Matte",
-    "benefits": "Oil Control, Brightening (Licorice Extract)",
-    "cbfBenefits": "Oil Control",
+    "benefits": "Microbright Formula, Oil Control, Brightening, Licorice Extract, Lightweight",
+    "cbfBenefits": "Oil Control, Lightweight",
     "image": "pw_w_l.jpeg"
   },
   {
@@ -413,7 +413,7 @@
     "subCategory": "Powder",
     "skinType": "All Skin Types",
     "finish": "Matte",
-    "benefits": "12H Long Lasting, Oil Control, SPF 15 PA++",
+    "benefits": "12H Long Lasting, Oil Control, SPF 20 PA+++",
     "cbfBenefits": "Long Lasting, Oil Control, UV Protection",
     "image": "pw_omg.jpeg"
   },
@@ -424,8 +424,8 @@
     "subCategory": "Powder",
     "skinType": "All Skin Types",
     "finish": "Matte",
-    "benefits": "12H Oil Control, Pore Blurring, Makeup Setting",
-    "cbfBenefits": "Long Lasting, Oil Control, Pore Blurring",
+    "benefits": "16H Long Lasting, 16H Oil Control, Pore-Blurring, Fine-Line Blurring, Lightweight, Makeup Setting",
+    "cbfBenefits": "Long Lasting, Oil Control, Lightweight, Pore Blurring",
     "image": "pw_skintific.jpeg"
   },
   {
@@ -433,9 +433,9 @@
     "name": "O.TWO.O 3D Soft Focus Face Powder",
     "brand": "O.TWO.O",
     "subCategory": "Powder",
-    "skinType": "Oily",
+    "skinType": "All Skin Types",
     "finish": "Matte",
-    "benefits": "Waterproof, 24H Oil Control, Hydrating, Pore Blurring, Fine Line Blurring",
+    "benefits": "Waterproof, 24H Oil Control, Hydrating, Pore-Blurring, Fine-Line Blurring",
     "cbfBenefits": "Long Lasting, Oil Control, Pore Blurring, Waterproof, Hydrating",
     "image": "pw_otwo.jpeg"
   },
@@ -446,7 +446,7 @@
     "subCategory": "Powder",
     "skinType": "Dry, Normal, Combination",
     "finish": "Natural",
-    "benefits": "Lightweight, Pore Blurring, Long Lasting, Medium to High Coverage",
+    "benefits": "Lightweight, Pore-Blurring, Long Lasting, Medium-to-High Coverage",
     "cbfBenefits": "Long Lasting, Lightweight, Coverage, Pore Blurring",
     "image": "pw_imp_twc.jpeg"
   },
@@ -455,10 +455,10 @@
     "name": "Sea Makeup Acne Cover Smooth Two Way Cake",
     "brand": "SEA MAKEUP",
     "subCategory": "Powder",
-    "skinType": "Acne-Prone, Oily, Dry",
+    "skinType": "Acne-Prone",
     "finish": "Matte",
-    "benefits": "High Coverage, 24H Long Lasting, Pore Blurring, Acne Care",
-    "cbfBenefits": "Long Lasting, Coverage, Pore Blurring",
+    "benefits": "Medium-to-Full Coverage, 12H Long Lasting, Oil Control, Pore-Blurring, Blemish & Acne Scar Coverage, Salicylic Acid, Niacinamide, Safflower",
+    "cbfBenefits": "Long Lasting, Oil Control, Coverage, Pore Blurring",
     "image": "pw_sea_c.jpeg"
   },
   {
@@ -468,19 +468,19 @@
     "subCategory": "Powder",
     "skinType": "Oily, Normal, Combination",
     "finish": "Natural",
-    "benefits": "Oil Control, Vitamin E Infused, Anti-Pollution, Lightweight, Natural Coverage",
+    "benefits": "Oil Control, Vitamin E, Anti-Pollution, Lightweight, Natural Coverage",
     "cbfBenefits": "Oil Control, Lightweight, Coverage",
     "image": "pw_hanasui.jpeg"
   },
   {
     "id": 44,
-    "name": "Luxcrime Blur & Cover Two Way Cake Powder",
+    "name": "Luxcrime Blur & Cover Two Way Cake Powder - Silk Glow",
     "brand": "LUXCRIME",
     "subCategory": "Powder",
-    "skinType": "Dry, Normal",
-    "finish": "Dewy, Glow",
-    "benefits": "Buildable Coverage, All-Day Long Lasting, Flawless Dry Skin Base, Pore Blurring",
-    "cbfBenefits": "Long Lasting, Coverage, Pore Blurring",
+    "skinType": "All Skin Types",
+    "finish": "Glow",
+    "benefits": "Buildable Coverage, Pore-Blurring, Smooth Texture, UV Protection, Radiant Finish",
+    "cbfBenefits": "UV Protection, Coverage, Pore Blurring",
     "image": "pw_lux.jpeg"
   },
   {
@@ -488,10 +488,10 @@
     "name": "Pixy Airy Stay Two Way Cake Filter Free",
     "brand": "PIXY",
     "subCategory": "Powder",
-    "skinType": "Normal, Combination, Oily",
+    "skinType": "All Skin Types",
     "finish": "Natural",
-    "benefits": "Lightweight, UV Protection (SPF 30 PA+++), Long Lasting, Pore Blurring",
-    "cbfBenefits": "Long Lasting, Lightweight, UV Protection, Pore Blurring",
+    "benefits": "Lightweight/Airy Feeling, Pore-Blurring, 2X Oil Control, Buildable Coverage, Brightening Effect, UV Protection",
+    "cbfBenefits": "Oil Control, Lightweight, UV Protection, Coverage, Pore Blurring",
     "image": "pw_pixy.jpeg"
   },
   {
@@ -499,7 +499,7 @@
     "name": "Pinkflash OhMySelf Matte Loose Powder",
     "brand": "PINKFLASH",
     "subCategory": "Powder",
-    "skinType": "Oily",
+    "skinType": "All Skin Types",
     "finish": "Matte",
     "benefits": "Oil Control, Waterproof, Sweatproof, Long Lasting, Lightweight",
     "cbfBenefits": "Long Lasting, Oil Control, Lightweight, Waterproof",
@@ -510,9 +510,9 @@
     "name": "Pigeon Teens Acne Ranger Loose Powder",
     "brand": "PIGEON",
     "subCategory": "Powder",
-    "skinType": "Acne-Prone, Oily",
-    "finish": "Natural, Matte",
-    "benefits": "Oil Control, Lightweight, Acne Soothing, Jojoba & Chamomile Protection",
+    "skinType": "Oily, Acne-Prone",
+    "finish": "Matte",
+    "benefits": "Oil Control, Acne Care, Lightweight",
     "cbfBenefits": "Oil Control, Lightweight",
     "image": "pw_pigeon.jpeg"
   },
@@ -521,10 +521,10 @@
     "name": "Barbie x Dazzle Me Better Than Filter HD Invisible Powder",
     "brand": "DAZZLE ME",
     "subCategory": "Powder",
-    "skinType": "Oily, Combination",
+    "skinType": "All Skin Types",
     "finish": "Matte",
-    "benefits": "24H Dual Oil Control, Texture Smoothing, Pore Blurring, Fine Line Blurring, Weightless",
-    "cbfBenefits": "Long Lasting, Oil Control, Lightweight, Pore Blurring",
+    "benefits": "24H Dual Oil Control, Pore-Blurring, Fine-Line Blurring, Smooth Matte Finish, Invisible Powderless Formula, Niacinamide, Zinc PCA, 5X Phyto-Soothing Complexion",
+    "cbfBenefits": "Long Lasting, Oil Control, Pore Blurring",
     "image": "pw_dazzle_i.jpeg"
   },
   {
@@ -532,10 +532,10 @@
     "name": "Glad2Glow Perfect Blur Cover Loose Powder",
     "brand": "GLAD2GLOW",
     "subCategory": "Powder",
-    "skinType": "Oily, Combination, Normal",
+    "skinType": "All Skin Types",
     "finish": "Matte",
-    "benefits": "Makeup Setting, Oil Control, Pore Blurring, Air Blurry Technology, Extra Flawless Coverage, Hydrating",
-    "cbfBenefits": "Oil Control, Coverage, Pore Blurring, Hydrating",
+    "benefits": "Makeup Setting, Pore-Blurring, 12H Oil Control, Ultra-Lightweight, Air Blurry Technology, Non-Drying",
+    "cbfBenefits": "Long Lasting, Oil Control, Lightweight, Pore Blurring, Hydrating",
     "image": "pw_g2g_l.jpeg"
   },
   {
@@ -543,10 +543,10 @@
     "name": "Dazzle Me Better Than Filter Double Kill TWC",
     "brand": "DAZZLE ME",
     "subCategory": "Powder",
-    "skinType": "Oily",
+    "skinType": "All Skin Types",
     "finish": "Matte",
-    "benefits": "Long Wear, Fast Oil Fix, Waterproof, 12H Long Lasting, High Coverage",
-    "cbfBenefits": "Long Lasting, Coverage, Waterproof",
+    "benefits": "12H Long Lasting, High Coverage, Fast Oil Fix, Long Wear, Silky Powder, Makeup Setting",
+    "cbfBenefits": "Long Lasting, Oil Control, Coverage",
     "image": "pw_dazzle_c.jpeg"
   },
   {
@@ -554,10 +554,10 @@
     "name": "Implora Rose 3in1 Compact Powder Foundation",
     "brand": "IMPLORA",
     "subCategory": "Powder",
-    "skinType": "Normal, Combination",
+    "skinType": "All Skin Types",
     "finish": "Natural",
-    "benefits": "3in1 Multi-functional, Long Lasting, Imperfection Concealing",
-    "cbfBenefits": "Long Lasting",
+    "benefits": "Medium-to-High Coverage, Buildable Coverage, Lightweight, Easy to Blend, 3-in-1 Compact Powder & Foundation",
+    "cbfBenefits": "Lightweight, Coverage",
     "image": "pw_imp.jpeg"
   },
   {
@@ -565,10 +565,10 @@
     "name": "Focallure Oil Control Loose Powder",
     "brand": "FOCALLURE",
     "subCategory": "Powder",
-    "skinType": "Oily",
+    "skinType": "All Skin Types",
     "finish": "Matte",
-    "benefits": "Oil Control, 12H Long Lasting, Waterproof, Sweatproof, Makeup Setting",
-    "cbfBenefits": "Long Lasting, Oil Control, Waterproof",
+    "benefits": "Up to 24H Waterproof & Sweatproof, Oil Control, Makeup Setting, Lightweight, Pore-Blurring, Fine-Line Blurring",
+    "cbfBenefits": "Long Lasting, Oil Control, Lightweight, Pore Blurring, Waterproof",
     "image": "pw_foc_l.jpeg"
   },
   {
@@ -576,10 +576,10 @@
     "name": "Focallure Oil Control Pressed Powder",
     "brand": "FOCALLURE",
     "subCategory": "Powder",
-    "skinType": "Oily, Combination",
+    "skinType": "All Skin Types",
     "finish": "Matte",
-    "benefits": "Fast Oil Control, Long Lasting, Pore Blurring, Texture Smoothing",
-    "cbfBenefits": "Long Lasting, Oil Control, Pore Blurring",
+    "benefits": "Oil Control, Long Lasting, Lightweight, Smooth Finish",
+    "cbfBenefits": "Long Lasting, Oil Control, Lightweight",
     "image": "pw_foc.jpeg"
   },
   {
@@ -587,10 +587,10 @@
     "name": "Inez Color Contur Plus Face Powder",
     "brand": "INEZ",
     "subCategory": "Powder",
-    "skinType": "Normal, Combination",
-    "finish": "Matte, Natural",
-    "benefits": "UV Protection, Oil Control, Lightweight",
-    "cbfBenefits": "Oil Control, Lightweight, UV Protection",
+    "skinType": "All Skin Types",
+    "finish": "Natural",
+    "benefits": "UV Protection, Lightweight, Natural Finish",
+    "cbfBenefits": "Lightweight, UV Protection",
     "image": "pw_inez.jpeg"
   },
   {
@@ -598,10 +598,10 @@
     "name": "Dazzle Me Acne Armor Cover & Correct Skin Tint",
     "brand": "Dazzle Me",
     "subCategory": "Skin Tint",
-    "skinType": "Acne-Prone, Oily",
+    "skinType": "All Skin Types, Acne-Prone",
     "finish": "Matte",
-    "benefits": "12H Long Lasting, 3X Soothing Boost, Oil Control, UV Filter, Weightless",
-    "cbfBenefits": "Long Lasting, Oil Control, Lightweight",
+    "benefits": "12H Long Lasting, Medium Coverage, Lightweight, Encapsulated Salicylic Acid + AHA, 3X Soothing Boost, UV Filter",
+    "cbfBenefits": "Long Lasting, Lightweight, UV Protection, Coverage",
     "image": "st_dazzle.jpeg"
   },
   {
@@ -611,8 +611,8 @@
     "subCategory": "Foundation",
     "skinType": "All Skin Types",
     "finish": "Matte",
-    "benefits": "High Coverage, Blur Imperfections, Long Lasting, Lightweight",
-    "cbfBenefits": "Long Lasting, Lightweight, Coverage",
+    "benefits": "13H Long Lasting, High Coverage, Lightweight, Waterproof, Transferproof, Golden Chamomile & Panthenol",
+    "cbfBenefits": "Long Lasting, Lightweight, Coverage, Waterproof",
     "image": "f_mg.jpeg"
   },
   {
@@ -622,8 +622,8 @@
     "subCategory": "Foundation",
     "skinType": "All Skin Types",
     "finish": "Matte",
-    "benefits": "Lightweight, Long Lasting, UV Protection (SPF 15)",
-    "cbfBenefits": "Long Lasting, Lightweight, UV Protection",
+    "benefits": "Skin-Like to High Coverage, Airy-Coated Particles, Advance Niacinamide, SPF 40 PA+++, Blue Light Protection",
+    "cbfBenefits": "UV Protection, Coverage",
     "image": "f_wardah_l.jpeg"
   },
   {
@@ -644,7 +644,7 @@
     "subCategory": "Foundation",
     "skinType": "All Skin Types",
     "finish": "Matte",
-    "benefits": "UV Protection (SPF 40 PA++), Full Coverage, Lightweight",
+    "benefits": "SPF 40 PA++, Full Coverage, Lightweight, Peptide Infused",
     "cbfBenefits": "Lightweight, UV Protection, Coverage",
     "image": "f_mop.jpeg"
   },
@@ -655,8 +655,8 @@
     "subCategory": "Foundation",
     "skinType": "All Skin Types",
     "finish": "Matte",
-    "benefits": "16H Long Lasting, Waterproof, UV Protection (SPF 50+ PA+++), 2-in-1 Dual Function",
-    "cbfBenefits": "Long Lasting, UV Protection, Waterproof",
+    "benefits": "16H Long Lasting, High Coverage, Lightweight, 2-in-1 Foundation & Concealer",
+    "cbfBenefits": "Long Lasting, Lightweight, Coverage",
     "image": "f_bnb.jpeg"
   },
   {
@@ -666,8 +666,8 @@
     "subCategory": "Skin Tint",
     "skinType": "All Skin Types",
     "finish": "Natural",
-    "benefits": "Lightweight, Breathable Coverage, UV Protection (SPF 30 PA+++), Multi-Effect Base",
-    "cbfBenefits": "Lightweight, UV Protection, Coverage",
+    "benefits": "Lightweight, Breathable Coverage, SPF 30 PA+++, Long Lasting, Waterproof, Multi-Effect Base",
+    "cbfBenefits": "Long Lasting, Lightweight, UV Protection, Coverage, Waterproof",
     "image": "st_foc.jpeg"
   },
   {
@@ -676,9 +676,9 @@
     "brand": "IMPLORA",
     "subCategory": "Foundation",
     "skinType": "All Skin Types",
-    "finish": "Natural, Matte",
-    "benefits": "Natural Cover, Skin Lightening, Dark Spot Concealing, Weightless Blend",
-    "cbfBenefits": "Lightweight",
+    "finish": "Matte",
+    "benefits": "Weightless, Buildable Coverage, Pore-Blurring, Dark Spot Concealing, Aloe Vera, Pearl Extract, Caviar Extract, Collagen",
+    "cbfBenefits": "Lightweight, Coverage, Pore Blurring",
     "image": "f_imp.jpeg"
   },
   {
@@ -689,7 +689,7 @@
     "skinType": "Oily, Combination",
     "finish": "Matte",
     "benefits": "Full Coverage, Oil Control, Super Long Lasting, Blur Imperfections",
-    "cbfBenefits": "Long Lasting, Oil Control, Coverage",
+    "cbfBenefits": "Long Lasting, Oil Control, Coverage, Pore Blurring",
     "image": "f_pf.jpeg"
   },
   {
@@ -697,10 +697,10 @@
     "name": "Implora Healthy Glow Cushion",
     "brand": "IMPLORA",
     "subCategory": "Cushion",
-    "skinType": "All Skin Types",
+    "skinType": "Dry, Normal, Combination",
     "finish": "Glow",
-    "benefits": "Lightweight, Hydrating, UV Protection, Dark Spot Concealing",
-    "cbfBenefits": "Lightweight, UV Protection, Hydrating",
+    "benefits": "Hydrating, Lightweight, Long Lasting, Pore-Blurring, Fine-Line Blurring, Hyaluronic Acid, UV Protection, Medium-to-High Coverage",
+    "cbfBenefits": "Long Lasting, Lightweight, UV Protection, Coverage, Pore Blurring, Hydrating",
     "image": "c_imp.jpeg"
   },
   {
@@ -710,7 +710,7 @@
     "subCategory": "Cushion",
     "skinType": "All Skin Types",
     "finish": "Matte",
-    "benefits": "UV Protection (SPF 42 PA++), Long Lasting, Smooth Texture, Weightless Formula",
+    "benefits": "24H Long Lasting, SPF 42 PA+++, Smooth Texture, Weightless Formula, Anti-Wrinkle",
     "cbfBenefits": "Long Lasting, Lightweight, UV Protection",
     "image": "c_etude.jpeg"
   },
@@ -721,8 +721,8 @@
     "subCategory": "Powder",
     "skinType": "All Skin Types",
     "finish": "Matte",
-    "benefits": "4X Oil Control, Porefect Blur, Flawless Looking, Long Lasting",
-    "cbfBenefits": "Long Lasting, Oil Control, Pore Blurring",
+    "benefits": "4X Oil Balance Actives, Pore-Blurring, Soft-Focus Effect, Medium-to-Full Buildable Coverage, Lightweight, 8H Long Lasting, 8H Shine Control, UV Protection, Non-Comedogenic, Dermatologically Tested",
+    "cbfBenefits": "Long Lasting, Oil Control, Lightweight, UV Protection, Coverage, Pore Blurring",
     "image": "pw_hanasui_c.jpeg"
   },
   {
@@ -732,7 +732,7 @@
     "subCategory": "Skin Tint",
     "skinType": "All Skin Types",
     "finish": "Matte",
-    "benefits": "Ultra Cover, Buildable Medium Coverage, Lightweight Daily Base, UV Protection (SPF 40 PA+++)",
+    "benefits": "SPF 40 PA+++, Buildable Medium Coverage, Lightweight, Daily Base, Dermatologically Tested, Fragrance Free",
     "cbfBenefits": "Lightweight, UV Protection, Coverage",
     "image": "st_bc.jpeg"
   },
@@ -741,9 +741,9 @@
     "name": "Becoming Bare Matte HD Cushion Foundation",
     "brand": "BECOMING",
     "subCategory": "Cushion",
-    "skinType": "Oily",
+    "skinType": "Oily, Combination",
     "finish": "Matte",
-    "benefits": "12H Long Lasting, Medium to High Coverage, Lightweight",
+    "benefits": "12H Long Lasting, Medium-to-High Coverage, Lightweight, Soft Blur Filter Finish",
     "cbfBenefits": "Long Lasting, Lightweight, Coverage",
     "image": "c_bc.jpeg"
   },
@@ -765,7 +765,7 @@
     "subCategory": "Cushion",
     "skinType": "All Skin Types",
     "finish": "Dewy",
-    "benefits": "Serum Formula, UV Protection (SPF 30 PA++), Lightweight, Medium to High Coverage",
+    "benefits": "Serum Formula, SPF 30 PA++, Lightweight, Medium-to-High Coverage",
     "cbfBenefits": "Lightweight, UV Protection, Coverage",
     "image": "c_nuface.jpeg"
   },
@@ -776,8 +776,8 @@
     "subCategory": "Foundation",
     "skinType": "Dry",
     "finish": "Glow",
-    "benefits": "Deep Hydrating, Medium Coverage, SPF 30 PA+++",
-    "cbfBenefits": "UV Protection, Coverage, Hydrating",
+    "benefits": "24H Deep Hydrating, Medium-to-High Buildable Coverage, SPF 30 PA+++, Water Burst Technology",
+    "cbfBenefits": "Long Lasting, UV Protection, Coverage, Hydrating",
     "image": "f_makeover_g.jpeg"
   }
 ]
