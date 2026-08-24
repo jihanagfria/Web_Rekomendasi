@@ -12,7 +12,7 @@ BASE_DIR = Path(__file__).resolve().parent
 FRONTEND_DIR = BASE_DIR / "frontend"
 DATA_DIR = BASE_DIR / "backend" / "data"
 DATA_FILE = DATA_DIR / "products.json"
-CSV_DATA_FILE = DATA_DIR / "dataset_makeup_fac.csv"
+CSV_DATA_FILE = DATA_DIR / "dataset_makeup_rv.csv"
 IMAGES_DIR = FRONTEND_DIR / "static" / "images"
 
 BASE_SUBCATEGORIES = ("Cushion", "Foundation", "Skin Tint", "Powder")
@@ -47,12 +47,20 @@ def normalize(value):
 
 
 def normalize_skin(raw):
-    raw = str(raw or "").strip()
-    if raw.casefold() in {"all skin type", "all skin types"}:
-        return ["All Skin Types"]
-    aliases = {"acne prone": "Acne-Prone", "acne-prone": "Acne-Prone"}
-    values = raw.replace("&", ",").replace(" Skin", "")
-    return [aliases.get(normalize(value), value.strip()) for value in split_clean(values)]
+    aliases = {
+        "all skin type": "All Skin Types",
+        "all skin types": "All Skin Types",
+        "normal skin": "Normal",
+        "acne prone": "Acne-Prone",
+        "acne-prone": "Acne-Prone",
+    }
+    values = str(raw or "").replace("&", ",")
+    normalized_values = []
+    for value in split_clean(values):
+        normalized_value = aliases.get(normalize(value), value.strip())
+        if normalized_value not in normalized_values:
+            normalized_values.append(normalized_value)
+    return normalized_values
 
 
 def normalized_benefit_text(value):
@@ -83,21 +91,28 @@ def classify_benefit_claim(value):
     if is_long_lasting_claim(keyword):
         categories.add("Long Lasting")
     # Shine-Control telah ditetapkan pada tabel normalisasi sebagai Oil Control.
-    if "oil control" in keyword or "shine control" in keyword:
+    if any(term in keyword for term in (
+        "oil control", "shine control", "oil balance", "oil fix", "excess oil fix"
+    )):
         categories.add("Oil Control")
     if "lightweight" in keyword or "weightless" in keyword:
         categories.add("Lightweight")
-    if "spf" in keyword or "uv protection" in keyword:
+    if "spf" in keyword or "uv protection" in keyword or "uv filter" in keyword:
         categories.add("UV Protection")
     # Semua tingkat daya tutup direpresentasikan sebagai satu kategori Coverage.
-    if "coverage" in keyword:
+    if "coverage" in keyword or "concealing" in keyword or re.search(r"\bcover\b", keyword):
         categories.add("Coverage")
     # Porefect Blur juga ditetapkan pada tabel normalisasi sebagai Pore Blurring.
-    if "pore blurring" in keyword or "porefect blur" in keyword:
+    if any(term in keyword for term in (
+        "pore blurring", "porefect blur", "poreless", "blurring", "blur imperfections",
+        "blurry technology", "soft focus",
+    )):
         categories.add("Pore Blurring")
-    if "waterproof" in keyword:
+    if "waterproof" in keyword or "water resistant" in keyword:
         categories.add("Waterproof")
-    if "hydrating" in keyword:
+    if any(term in keyword for term in (
+        "hydrating", "hyaluronic acid", "pentavitin", "squalane", "water burst", "non drying"
+    )):
         categories.add("Hydrating")
     return categories
 
@@ -183,15 +198,23 @@ def add_feature(features, group, value):
 def product_features(product):
     """Profil produk untuk CBF: kulit, finish, dan delapan benefit penelitian."""
     features = []
-    skin_types = split_values(product.get("skinType"))
-    supports_all_skin = any(value in {"all skin type", "all skin types"} for value in skin_types)
-    for value in ALL_SKIN_TYPES if supports_all_skin else skin_types:
+    for value in effective_product_skin_types(product):
         add_feature(features, "skin", value)
     for value in split_values(product.get("finish")):
         add_feature(features, "finish", value)
     for value in split_values(product.get("cbfBenefits")):
         add_feature(features, "benefit", value)
     return features
+
+
+def effective_product_skin_types(product):
+    """Memperluas All Skin Types hanya ke empat jenis kulit dasar."""
+    skin_types = split_values(product.get("skinType"))
+    all_skin_labels = {"all skin type", "all skin types"}
+    supports_all_skin = any(value in all_skin_labels for value in skin_types)
+    explicit_skin_types = [value for value in skin_types if value not in all_skin_labels]
+    base_skin_types = [normalize(value) for value in ALL_SKIN_TYPES]
+    return base_skin_types + explicit_skin_types if supports_all_skin else skin_types
 
 
 def preference_features(preferences):
@@ -284,7 +307,7 @@ def print_calculation_output(query_features, idf, scored_products, document_coun
     del query_features, idf, scored_products, document_count
 
 def recommend_products(products, preferences, show_calculation=False):
-    """Hard filter subkategori, kemudian TF-IDF dan cosine similarity."""
+    """Filter subkategori, kemudian ranking kemiripan CBF."""
     candidates = [product for product in products if matches_subcategory(product, preferences)]
     if not candidates:
         return []
