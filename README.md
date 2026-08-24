@@ -79,15 +79,3 @@ python -B app.py
 ```
 
 Buka `http://127.0.0.1:5000`.
-
-Opsi `-B` mencegah Python membuat folder `__pycache__`.
-
-## Membangun ulang JSON
-
-Setelah CSV diubah, jalankan:
-
-```powershell
-python -B app.py --build-data
-```
-
-
