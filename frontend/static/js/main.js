@@ -62,6 +62,10 @@ function tagsFor(product) {
   };
 }
 
+function normalizedBenefitsFor(product) {
+  return String(product.cbfBenefits ?? '').split(',').map(value => value.trim()).filter(Boolean);
+}
+
 function renderProductCard(product) {
   const { skinTypes, finishes, benefits } = tagsFor(product);
   return `
@@ -190,7 +194,8 @@ group.insertAdjacentHTML('beforeend', sortedOptions
 
 function renderResultCard(product, index) {
   const isBestMatch = index === 0;
-  const { skinTypes, finishes, benefits } = tagsFor(product);
+  const { skinTypes, finishes } = tagsFor(product);
+  const benefits = normalizedBenefitsFor(product);
   return `
     <article class="result-card ${isBestMatch ? 'top-match' : ''}">
       ${isBestMatch ? '<div class="best-match-badge">Best Match</div>' : ''}
@@ -215,7 +220,7 @@ function showResults(recommendations) {
   const subtitle = byId('resultsSubtitle');
   if (!recommendations.length) {
     subtitle.textContent = '';
-    grid.innerHTML = '<div class="empty-state"><h3>Tidak ada produk yang sesuai</h3><p>Coba pilih preferensi yang berbeda.</p></div>';
+    grid.innerHTML = '<div class="empty-state"><h3>Belum ada produk yang sesuai</h3><p>Silakan ubah subkategori atau preferensi lainnya.</p></div>';
   } else {
     subtitle.textContent = `${recommendations.length} produk yang paling sesuai dengan preferensi Anda`;
     grid.innerHTML = recommendations.map(renderResultCard).join('');
